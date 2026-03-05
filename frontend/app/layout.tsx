@@ -16,8 +16,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <CustomCursor />
       <body className="min-h-screen flex flex-col">
+        <CustomCursor />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -55,7 +55,6 @@ const Page = () => {
         </p>
 
         <form onSubmit={handleSubmit} className="space-y-5">
-          {/* Title */}
           <div>
             <label className="text-sm font-semibold text-gray-700 block mb-1">
               Title <span className="text-red-500">*</span>
@@ -72,7 +71,6 @@ const Page = () => {
             />
           </div>
 
-          {/* Category */}
           <div>
             <label className="text-sm font-semibold text-gray-700 block mb-2">
               Category <span className="text-red-500">*</span>
@@ -102,7 +100,6 @@ const Page = () => {
             </div>
           </div>
 
-          {/* Description */}
           <div>
             <label className="text-sm font-semibold text-gray-700 block mb-1">
               Description <span className="text-red-500">*</span>
@@ -118,7 +115,6 @@ const Page = () => {
             />
           </div>
 
-          {/* Email */}
           <div>
             <label className="text-sm font-semibold text-gray-700 block mb-1">
               Email{" "}
@@ -134,7 +130,6 @@ const Page = () => {
             />
           </div>
 
-          {/* Submit Button */}
           <button
             type="submit"
             className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition text-sm"
