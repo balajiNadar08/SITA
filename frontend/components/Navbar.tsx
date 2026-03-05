@@ -129,7 +129,7 @@ const Navbar: React.FC = () => {
             </Link>
 
             <Link
-              href="/"
+              href="/report"
               className="block text-black hover:text-gray-500 transition-colors duration-200"
             >
               Report
