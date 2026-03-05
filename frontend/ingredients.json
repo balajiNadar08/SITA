@@ -1,0 +1,259 @@
+{
+  "ingredients": [
+    {
+      "name": "milk solids",
+      "category": "dairy",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["lactose intolerant individuals", "milk allergy"],
+      "description": "Concentrated milk proteins and lactose used for texture and richness."
+    },
+    {
+      "name": "sugar",
+      "category": "sweetener",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["diabetics", "low sugar diet"],
+      "description": "High glycemic carbohydrate that can spike blood glucose levels."
+    },
+    {
+      "name": "coconut oil",
+      "category": "fat",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["heart patients (excess consumption)"],
+      "description": "High in saturated fats, used for coating and texture."
+    },
+    {
+      "name": "pistachio pieces",
+      "category": "nut",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["tree nut allergy"],
+      "description": "Tree nut used for flavor and texture."
+    },
+    {
+      "name": "emulsifier 435",
+      "aliases": ["e435", "polysorbate 60"],
+      "category": "food additive",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Synthetic emulsifier used to stabilize fat and water mixtures."
+    },
+    {
+      "name": "emulsifier (471)",
+      "aliases": ["e471", "mono and diglycerides"],
+      "category": "food additive",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["strict vegans (source dependent)"],
+      "description": "Emulsifier derived from fatty acids."
+    },
+    {
+      "name": "emulsifier (322)",
+      "aliases": ["e322", "lecithin"],
+      "category": "food additive",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["soy allergy (if soy-derived)"],
+      "description": "Natural emulsifier commonly derived from soy or sunflower."
+    },
+    {
+      "name": "stabilizer (407)",
+      "aliases": ["e407", "carrageenan"],
+      "category": "food additive",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["sensitive gut individuals"],
+      "description": "Seaweed-derived thickener used in dairy products."
+    },
+    {
+      "name": "stabilizer 412",
+      "aliases": ["e412", "guar gum"],
+      "category": "food additive",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["people with digestive sensitivity"],
+      "description": "Natural thickener derived from guar beans."
+    },
+    {
+      "name": "artificial flavouring substances",
+      "category": "flavoring",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["artificial additive sensitive individuals"],
+      "description": "Synthetic or nature-identical compounds used for flavor enhancement."
+    },
+    {
+      "name": "kesar",
+      "aliases": ["saffron"],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Aromatic spice derived from Crocus sativus."
+    },
+    {
+      "name": "pista",
+      "aliases": ["pistachio"],
+      "category": "nut",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["tree nut allergy"],
+      "description": "Common tree nut used in desserts."
+    },
+    {
+      "name": "cardamom",
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Aromatic spice used in Indian desserts."
+    },
+    {
+      "name": "potato",
+      "aliases": [],
+      "category": "vegetable",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Starchy root vegetable commonly used in snack products."
+    },
+    {
+      "name": "palmolein oil",
+      "aliases": ["palm oil"],
+      "category": "fat",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["heart condition", "high cholesterol"],
+      "description": "Refined palm oil high in saturated fats."
+    },
+    {
+      "name": "rice bran oil",
+      "aliases": [],
+      "category": "fat",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Oil extracted from rice bran, often considered heart-friendly compared to other refined oils."
+    },
+    {
+      "name": "onion powder",
+      "aliases": [],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Dehydrated onion used for flavor enhancement."
+    },
+    {
+      "name": "chilli powder",
+      "aliases": ["chili powder"],
+      "category": "spice",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["acid reflux", "sensitive stomach"],
+      "description": "Ground dried chilies used to add heat and flavor."
+    },
+    {
+      "name": "dried mango powder",
+      "aliases": ["amchur"],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Tangy powder made from dried unripe mangoes."
+    },
+    {
+      "name": "coriander seed powder",
+      "aliases": [],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Ground coriander seeds used as seasoning."
+    },
+    {
+      "name": "ginger powder",
+      "aliases": [],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Dried ground ginger used for flavor and digestion support."
+    },
+    {
+      "name": "garlic powder",
+      "aliases": [],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Dehydrated garlic used as seasoning."
+    },
+    {
+      "name": "black pepper powder",
+      "aliases": [],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["sensitive stomach"],
+      "description": "Ground black pepper used for pungency and flavor."
+    },
+    {
+      "name": "turmeric powder",
+      "aliases": [],
+      "category": "spice",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Yellow spice derived from Curcuma longa, used for flavor and color."
+    },
+    {
+      "name": "iodised salt",
+      "aliases": ["iodized salt"],
+      "category": "mineral",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["high blood pressure"],
+      "description": "Salt fortified with iodine to prevent deficiency."
+    },
+    {
+      "name": "black salt",
+      "aliases": ["kala namak"],
+      "category": "mineral",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["high blood pressure"],
+      "description": "Mineral-rich salt with sulfur compounds giving a distinct flavor."
+    },
+    {
+      "name": "sugar",
+      "aliases": [],
+      "category": "sweetener",
+      "risk_level": "moderate",
+      "safe_for": ["general population"],
+      "avoid_for": ["diabetes"],
+      "description": "Simple carbohydrate that raises blood glucose levels."
+    },
+    {
+      "name": "tomato powder",
+      "aliases": [],
+      "category": "vegetable",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": [],
+      "description": "Dehydrated tomato used for flavor and color."
+    },
+    {
+      "name": "citric acid (330)",
+      "aliases": ["e330", "citric acid"],
+      "category": "acidity regulator",
+      "risk_level": "low",
+      "safe_for": ["general population"],
+      "avoid_for": ["acid sensitivity"],
+      "description": "Naturally occurring acid used as a preservative and flavor enhancer."
+    }
+  ]
+}
