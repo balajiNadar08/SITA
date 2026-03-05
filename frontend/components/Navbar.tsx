@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
               </Link>
 
               <Link
-                href="/"
+                href="/report"
                 className="text-black border-b-2 border-transparent hover:border-black transition-all duration-200"
               >
                 Report
