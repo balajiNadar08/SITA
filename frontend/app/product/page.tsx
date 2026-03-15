@@ -151,6 +151,7 @@ export default function OCRTestPage() {
   const [preview, setPreview] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
   const [report, setReport] = useState<any>(null);
+  const [input, setInput] = useState<string | null>(null);
 
   const generateReport = (extractedText: string) => {
     const normalized = extractedText.toLowerCase();
@@ -238,6 +239,10 @@ export default function OCRTestPage() {
       (i: any) => i.risk_level !== "high" && i.risk_level !== "moderate",
     ) ?? [];
   const hasAlerts = alerts.length > 0;
+
+    const handleSearch = () => {
+      return "Ingredients";
+    }
 
   return (
     <div className={`min-h-screen bg-white ${dmMono.className}`}>
@@ -340,6 +345,11 @@ export default function OCRTestPage() {
             "Analyze Ingredients"
           )}
         </button>
+
+        {/* <div>
+          <input type="text" onChange={(e) => setInput(e.target.value)} />
+          <button onClick={}>Search Ingredient</button>
+        </div> */}
 
         {report && (
           <section className="space-y-6 animate-in fade-in duration-500">

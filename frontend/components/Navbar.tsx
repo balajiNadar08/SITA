@@ -95,7 +95,7 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="ml-auto hidden md:flex items-center">
-            <Link href="/auth">
+            <Link href="/auth/login">
               <button className="px-5 py-2 text-[15px]  tracking-[0.2px] text-black border border-black rounded-md cursor-pointer hover:bg-black hover:text-white transition-all duration-200">
                 Login
               </button>
