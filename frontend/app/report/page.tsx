@@ -88,7 +88,7 @@ const Page = () => {
                   type="button"
                   key={cat}
                   onClick={() => handleChange("category", cat)}
-                  className={`px-4 py-1.5 rounded-full text-sm border transition ${
+                  className={`px-4 py-1.5 rounded-full text-sm border transition cursor-pointer ${
                     form.category === cat
                       ? "bg-gray-900 text-white border-gray-900"
                       : "bg-white text-gray-500 border-gray-200 hover:border-gray-400"
@@ -125,14 +125,14 @@ const Page = () => {
               type="email"
               value={form.email}
               onChange={(e) => handleChange("email", e.target.value)}
-              placeholder="you@example.com"
+              placeholder="you@gmail.com"
               className="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
 
           <button
             type="submit"
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition text-sm"
+            className="w-full bg-black hover:bg-gray-900 text-white font-semibold py-3 rounded-lg cursor-pointer transition text-sm"
           >
             Submit Report →
           </button>

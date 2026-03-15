@@ -20,13 +20,12 @@ const Page = () => {
       className={`relative min-h-screen bg-[#faf9fc] ${playfair.variable} ${lato.variable}`}
     >
       <div
-        className="absolute top-0 right-0 h-full w-1/2 opacity-10"
+        className="absolute top-0 right-0 h-full w-1/2 opacity-30"
         style={{
-          backgroundImage: `url("food.svg");`,
+          backgroundImage: 'url("/food.svg")',
           backgroundRepeat: "repeat",
         }}
       />
-
 
       <div className="relative z-10 flex min-h-screen items-center px-10 md:px-20 py-20">
         <div className="max-w-2xl w-full">

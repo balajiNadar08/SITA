@@ -23,7 +23,6 @@ const Page = () => {
     <div
       className={`min-h-[calc(100vh-80px)] flex flex-col items-center justify-center bg-gray-100 px-4 ${lato.className}`}
     >
-      {/* Top Text Section */}
       <div className="text-center mb-8">
         <h1
           className={`${playfair.className} text-3xl md:text-4xl font-semibold text-black mb-3`}
@@ -35,7 +34,6 @@ const Page = () => {
         </p>
       </div>
   
-      {/* Sign Up Card */}
       <div className="w-full max-w-md bg-white p-8 rounded-xl shadow-md">
         <h2
           className={`${playfair.className} text-2xl font-semibold text-center mb-6`}
