@@ -30,7 +30,7 @@ const Page = () => {
           Take Your First Step Toward Transparency
         </h1>
         <p className="text-gray-600 text-base md:text-lg">
-          Create your account and start exploring meaningful insights.
+          Login and start exploring meaningful insights.
         </p>
       </div>
   
@@ -38,7 +38,7 @@ const Page = () => {
         <h2
           className={`${playfair.className} text-2xl font-semibold text-center mb-6`}
         >
-          Sign Up
+          Login
         </h2>
   
         <div className="mb-4">
@@ -63,17 +63,17 @@ const Page = () => {
           />
         </div>
   
-        <button className="w-full py-2 bg-black text-white rounded-md hover:bg-gray-800 transition duration-200">
-          Sign Up
+        <button className="w-full py-2 bg-black text-white rounded-md cursor-pointer hover:bg-gray-800 transition duration-200">
+          Login
         </button>
   
         <p className="mt-4 text-sm text-center text-gray-600">
-          Already have an account?{" "}
+          Don't have an account?{" "}
           <Link
-            href="/login"
+            href="/auth/register"
             className="text-black font-medium hover:underline"
           >
-            Login
+            Register
           </Link>
         </p>
       </div>
